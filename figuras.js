@@ -103,3 +103,62 @@ areaCirculo();
 //console.log("El área del circulo es: " + areaCirculo + "cm^2");
 
 console.groupEnd();
+
+// Aqui interactuamos con el HTML
+//CUADRADO
+function calcularPerimetroCuadrado() {
+    const input = document.getElementById("InputCuadrado"); //recibe todo el input
+    const value = input.value; //recibe el valor escrito
+
+    const perimetro = perimetroCuadrado(value);
+    alert("El perímetro del cuadrado es: " + perimetro + "cm")
+}
+
+function calcularAreaCuadrado() {
+    const input = document.getElementById("InputCuadrado"); //recibe todo el input
+    const value = input.value; //recibe el valor escrito
+
+    const area = areaCuadrado(value);
+    alert("El área del cuadrado es: " + area + "cm^2")
+}
+//TRIÁNGULO
+function calcularPerimetroTiangulo() {
+    const inputLado1 = document.getElementById("Lado1");
+    const valueLado1 = inputLado1.value;
+    const inputLado2 = document.getElementById("Lado2");
+    const valueLado2 = inputLado2.value;
+    const inputBase = document.getElementById("Base");
+    const valueBase = inputBase.value;
+
+    const perimetro = perimetroTriangulo(valueLado1, valueLado2, valueBase);
+    alert("El perímetro del triángulo es: " + perimetro + "cm")
+}
+
+function calcularAreaTiangulo() {
+    const altura = document.getElementById("Altura");
+    const valueAltura = altura.value;
+    const inputBase = document.getElementById("Base");
+    const valueBase = inputBase.value;
+
+    const area = areaTriangulo(valueAltura, valueBase);
+    alert("El área del triángulo es: " + area + "cm^2");
+}
+
+//CIRCULO
+
+function calcularPerimetroCirculo() {
+    const radio = document.getElementById("InputCirculo");
+    const value = radio.value;
+
+    const perimetro = perimetroCirculo(value);
+    alert("El perímetro del círculo es: " + perimetro + "cm");
+}
+
+
+function calcularAreaCirculo() {
+    const radio = document.getElementById("InputCirculo");
+    const value = radio.value;
+
+    const area = areaCirculo(value);
+    alert("El área del círculo es: " + area + "cm^2");
+}
