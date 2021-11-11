@@ -2,6 +2,7 @@
 Ejercicios del curso practico de JS
 
 ...
+comando pwd en la conasola para copiar direccion del archivo al navegador
 
 ## FIGURAS GEOMÉTRICAS
 
