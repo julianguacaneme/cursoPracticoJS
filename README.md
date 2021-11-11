@@ -9,3 +9,10 @@ Ejercicios del curso practico de JS
 - Segundo paso: implementar las formulas en JS
 - Tercer paso: crear funciones
 - Cuarto paso: integrar JS con HTML 
+
+## PORCENTAJES Y DESCUENTOS
+
+- Primer paso: definir las fórmulas
+- Segundo paso: implementar las formulas en JS
+- Tercer paso: crear funciones
+- Cuarto paso: integrar JS con HTML 
