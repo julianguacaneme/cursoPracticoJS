@@ -17,3 +17,9 @@ comando pwd en la conasola para copiar direccion del archivo al navegador
 - Segundo paso: implementar las formulas en JS
 - Tercer paso: crear funciones
 - Cuarto paso: integrar JS con HTML 
+
+## PROMEDIO MEDIANA Y MODA
+- Primer paso: definir las fórmulas
+- Segundo paso: implementar las formulas en JS
+- Tercer paso: crear funciones
+- Cuarto paso: integrar JS con HTML 
